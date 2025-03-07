@@ -2,7 +2,7 @@
 #include <stdlib.h>  
 
 void suma() {
-    printf("Has seleccionado suma\n");
+    printf("Has seleccionado suma \n");
     int num1, num2, resultado;
     printf("Ingrese el primer número: ");
     scanf("%d", &num1);
