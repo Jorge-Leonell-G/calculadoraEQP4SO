@@ -75,6 +75,10 @@ return 0;
 
 
 //Definicion de las funciones
+float multiplicacion(float a, float b) {
+    printf("Has seleccionado multiplicacion\n");
+    return a * b;
+}
 
 float division(float a, float b) {
     printf("Has seleccionado division\n");
@@ -84,7 +88,6 @@ float division(float a, float b) {
     }
     return a / b;
 }
-
 void salir(){
     printf("Saliendo del programa...\n");
     exit(0);
