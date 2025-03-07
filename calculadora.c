@@ -81,6 +81,11 @@ float suma(float a, float b) {
     return a + b;
 }
 
+float resta(float a, float b){
+	printf("Has seleccionado resta\n");
+	return a - b;
+}
+
 float multiplicacion(float a, float b) {
     printf("Has seleccionado multiplicacion\n");
     return a * b;
