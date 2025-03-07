@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>  
+#include <stdio.h> 
 
 void suma() {
     printf("Has seleccionado suma\n");
@@ -22,20 +21,29 @@ void salir(){
     exit(0);
 }
 
+//Declaración de funciones
+float dividir(float a, float b);
+
 int main() {
+<<<<<<< HEAD
+
+    float num1, num2, resultado;
     int opcion;
+    printf("Calculadora inicial\n");
+
+=======
 
     do {
         system("clear");  // Limpia la pantalla
 
-        printf("==== Menú Principal ====\n");
+        printf("==== Menu Principal ====\n");
         printf("1. Suma\n");
         printf("2. Resta\n");
         printf("3. Multiplicacion\n");
         printf("4. Division\n");
         printf("5. Salir\n");
         printf("========================\n");
-        printf("Selecciona una opción: ");
+        printf("Selecciona una opcion: ");
         scanf("%d", &opcion);
 
         switch (opcion) {
@@ -54,7 +62,7 @@ int main() {
             case 5:
                 salir();
             default:
-                printf("Opción no válida. Intenta de nuevo.\n");
+                printf("Opcion no valida. Intenta de nuevo.\n");
         }
         printf("\nPresiona Enter para continuar...");
         getchar();
@@ -64,3 +72,14 @@ int main() {
 
     return 0;
 }
+
+//Definicion de funciones
+
+float division(float a, float b) {
+    if (b == 0){
+        printf("Error: Division por cero no valida");
+        return 0;
+    }
+    return a / b;
+}
+>>>>>>> e37e3109b32bc03173d3e8960678bff93f06e64a
