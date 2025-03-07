@@ -1,3 +1,4 @@
+
 #include <stdio.h> 
 
 //Declaracion inicial de las funciones
@@ -75,6 +76,11 @@ return 0;
 
 
 //Definicion de las funciones
+float suma(float a, float b) {
+    printf("Has seleccionado suma\n");
+    return a + b;
+}
+
 float multiplicacion(float a, float b) {
     printf("Has seleccionado multiplicacion\n");
     return a * b;
@@ -88,6 +94,7 @@ float division(float a, float b) {
     }
     return a / b;
 }
+
 void salir(){
     printf("Saliendo del programa...\n");
     exit(0);
